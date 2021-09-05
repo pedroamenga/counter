@@ -1,9 +1,13 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.contador div{
+.Contador{
+    text-align: center;
+    background: black;
+}
+
+.Contador div{
     display: inline-block;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 60px;
     background: #101010 ;
     color: white;
     padding: 10px;

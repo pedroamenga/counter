@@ -11,9 +11,11 @@ import "../styles/index.scss";
 function SimpleCounter(props) {
 	return (
 		<div className="Contador">
-			<div className={"clock"}></div>;<div className={"four"}>0</div>;
-			<div className={"three"}>0</div>;<div className={"two"}>0</div>;
-			<div className={"one"}>0</div>;
+			<div>
+				<i className="far fa-clock"></i>
+			</div>
+			<div className="cuarto">0</div>;<div className="tercero">0</div>;
+			<div className="segundo">0</div>;<div className="primero">0</div>;
 		</div>
 	);
 }
